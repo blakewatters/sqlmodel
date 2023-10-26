@@ -120,7 +120,9 @@ authors = [
 requires-python = ">=3.7,<4.0"
 dependencies = [
     "SQLAlchemy<=2.0.22,>=2.0.0",
-    "pydantic<3.0.0,>=2.4.0",
+    "pydantic<2.0.0,>=1.10.0",
+    # "pydantic<3.0.0,>=2.4.0",
+
 ]
 name = "sqlmodel"
 version = "0"
